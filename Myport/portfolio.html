@@ -197,6 +197,161 @@
             background-color: #0056b3;
             transform: translateY(-5px);
         }
+
+        @media (min-width: 1200px) {
+        .main-content h1 {
+            font-size: 4rem;
+        }
+
+        .main-content p {
+            font-size: 2rem;
+        }
+
+        .btn-custom {
+            font-size: 1.5rem;
+            width: 220px;
+        }
+
+        #skills ul li {
+            font-size: 1.4rem;
+        }
+    }
+
+    @media (max-width: 1199px) and (min-width: 992px) {
+        .main-content h1 {
+            font-size: 3.5rem;
+        }
+
+        .main-content p {
+            font-size: 1.75rem;
+        }
+
+        .btn-custom {
+            font-size: 1.4rem;
+            width: 200px;
+        }
+
+        #skills ul li {
+            font-size: 1.3rem;
+        }
+
+       .project-grid {
+            gap: 15px;
+        }
+    }
+
+    @media (max-width: 991px) and (min-width: 768px) {
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #main {
+            padding: 15px;
+        }
+
+        .main-content h1 {
+            font-size: 2.5rem;
+        }
+
+        .main-content p {
+            font-size: 1.25rem;
+        }
+
+        #projects .project-grid {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .project {
+            width: 45%;
+        }
+
+        .btn-custom {
+            font-size: 1.2rem;
+            width: 180px;
+        }
+
+        #skills ul li {
+            font-size: 1.1rem;
+        }
+    }
+
+    @media (max-width: 767px) and (min-width: 576px) {
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #main {
+            padding: 10px;
+            height: auto;
+        }
+
+        .main-content h1 {
+            font-size: 2rem;
+        }
+
+        .main-content p {
+            font-size: 1rem;
+        }
+
+        #projects .project-grid {
+            flex-direction: column;
+        }
+
+        .project {
+            width: 100%;
+        }
+
+        .btn-custom {
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        #skills ul li {
+            font-size: 1rem;
+        }
+    }
+
+    @media (max-width: 575px) {
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #main {
+            padding: 10px;
+            height: auto;
+            text-align: center;
+        }
+
+        .main-content h1 {
+            font-size: 1.5rem;
+        }
+
+        .main-content p {
+            font-size: 0.875rem;
+        }
+
+        #projects .project-grid {
+            flex-direction: column;
+        }
+
+        .project {
+            width: 100%;
+        }
+
+        .btn-custom {
+            width: 100%;
+            font-size: 0.875rem;
+        }
+
+        #skills ul li {
+            font-size: 0.875rem;
+        }
+    }
     </style>
 </head>
 <body>
